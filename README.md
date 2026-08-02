@@ -48,17 +48,20 @@ Bootstrap Project/
 <b>الرئيسية</b><br>
 <img src="images/Screenshot 2.png" width="400">
 </td>
+</tr>
+  
+<tr>
 <td align="center">
 <b>الرئيسية</b><br>
 <img src="images/Screenshot 3.png" width="400">
 </td>
-</tr>
-
-<tr>
 <td align="center">
 <b>الرئيسية</b><br>
 <img src="images/Screenshot 4.png" width="400">
 </td>
+</tr>
+
+<tr>
 <td align="center">
 <b>الرئيسية</b><br>
 <img src="images/Screenshot 5.png" width="400">
@@ -78,6 +81,8 @@ Bootstrap Project/
 <b>فريق العمل</b><br>
 <img src="images/Screenshot 8.png" width="400">
 </td>
+</tr>
+<tr>
 <td align="center">
 <b>طلب عرض سعر</b><br>
 <img src="images/Screenshot 9.png" width="400">
