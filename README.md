@@ -42,45 +42,45 @@ Bootstrap Project/
 <tr>
 <td align="center">
 <b>الرئيسية</b><br>
-<img src="images/Screenshot1.png" width="180">
+<img src="images/Screenshot1.png" width="280">
 </td>
 <td align="center">
 <b>الرئيسية</b><br>
-<img src="images/Screenshot 2.png" width="180">
+<img src="images/Screenshot 2.png" width="280">
 </td>
 <td align="center">
 <b>الرئيسية</b><br>
-<img src="images/Screenshot 3.png" width="180">
+<img src="images/Screenshot 3.png" width="280">
 </td>
 </tr>
 
 <tr>
 <td align="center">
 <b>الرئيسية</b><br>
-<img src="images/Screenshot 4.png" width="180">
+<img src="images/Screenshot 4.png" width="280">
 </td>
 <td align="center">
 <b>الرئيسية</b><br>
-<img src="images/Screenshot 5.png" width="180">
+<img src="images/Screenshot 5.png" width="280">
 </td>
 <td align="center">
 <b>من نحن</b><br>
-<img src="images/Screenshot 6.png" width="180">
+<img src="images/Screenshot 6.png" width="280">
 </td>
 </tr>
 
 <tr>
 <td align="center">
 <b>من نحن </b><br>
-<img src="images/Screenshot 7.png" width="180">
+<img src="images/Screenshot 7.png" width="280">
 </td>
 <td align="center">
 <b>فريق العمل</b><br>
-<img src="images/Screenshot 8.png" width="180">
+<img src="images/Screenshot 8.png" width="280">
 </td>
 <td align="center">
 <b>طلب عرض سعر</b><br>
-<img src="images/Screenshot 9.png" width="180">
+<img src="images/Screenshot 9.png" width="280">
 </td>
 </tr>
 </table>
