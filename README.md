@@ -35,3 +35,52 @@ Bootstrap Project/
 ├── faq.html
 ├── album.html
 ├── images/
+
+## Screenshots
+
+<table>
+<tr>
+<td align="center">
+<b>الرئيسية</b><br>
+<img src="images/screenshot 1.png" width="180">
+</td>
+<td align="center">
+<b>الرئيسية</b><br>
+<img src="images/screenshot 2.png" width="180">
+</td>
+<td align="center">
+<b>الرئيسية</b><br>
+<img src="images/screenshot 3.png" width="180">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>الرئيسية</b><br>
+<img src="images/screenshot 4.png" width="180">
+</td>
+<td align="center">
+<b>الرئيسية</b><br>
+<img src="images/screenshot 5.png" width="180">
+</td>
+<td align="center">
+<b>من نحن</b><br>
+<img src="images/screenshot 6.png" width="180">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>من نحن</b><br>
+<img src="images/screenshot 7.png" width="180">
+</td>
+<td align="center">
+<b>فريق العمل</b><br>
+<img src="images/screenshot 8.png" width="180">
+</td>
+<td align="center">
+<b>طلب عرض سعر</b><br>
+<img src="images/screenshot 9.png" width="180">
+</td>
+</tr>
+</table>
