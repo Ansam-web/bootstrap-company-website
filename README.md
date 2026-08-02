@@ -71,7 +71,7 @@ Bootstrap Project/
 
 <tr>
 <td align="center">
-<b>من نحن</b><br>
+<b>من نحن </b><br>
 <img src="images/Screenshot 7.png" width="180">
 </td>
 <td align="center">
