@@ -1,7 +1,11 @@
 :root {
   --brand: #0d6efd;
 }
-
+body.dark-mode{
+    --bg:#0f172a;
+    --card:#1e293b;
+    --text:#f8fafc;
+}
 body { scroll-behavior: smooth; }
 
 .hero-section .carousel-caption { background: rgba(0,0,0,.35); border-radius: 1rem; padding: 1rem 1.25rem; }
@@ -124,9 +128,150 @@ body{background:var(--soft);transition:background .25s ease,color .25s ease;}
 .gallery-item:after{content:"تكبير الصورة";position:absolute;inset:auto 12px 12px 12px;background:rgba(0,0,0,.55);color:#fff;border-radius:12px;padding:8px;text-align:center;opacity:0;transform:translateY(10px);transition:.25s;}
 .gallery-item:hover:after{opacity:1;transform:none;}
 .search-panel{background:#fff;border-radius:20px;padding:20px;box-shadow:0 12px 30px rgba(30,58,95,.08);}
-body.dark-mode{background:#111827;color:#f9fafb;}
-body.dark-mode .navbar,body.dark-mode .card,body.dark-mode .stat-card,body.dark-mode .testimonial-card,body.dark-mode .partner-logo,body.dark-mode .timeline-item,body.dark-mode .search-panel,body.dark-mode .accordion-item,body.dark-mode .modal-content,body.dark-mode .policy-container{background:#1f2937!important;color:#f9fafb!important;}
-body.dark-mode .text-secondary,body.dark-mode .text-muted{color:#cbd5e1!important;}
-body.dark-mode .navbar .nav-link,body.dark-mode .navbar-brand{color:#f9fafb!important;}
-body.dark-mode .form-control,body.dark-mode .form-select{background:#111827;color:#f9fafb;border-color:#374151;}
+/* ==========================
+   Dark Mode
+========================== */
+
+body.dark-mode{
+    background:#0f172a;
+    color:#f8fafc;
+}
+
+/* Sections */
+body.dark-mode section,
+body.dark-mode footer{
+    background:transparent !important;
+}
+
+/* Navbar */
+body.dark-mode .navbar{
+    background:#111827 !important;
+    box-shadow:0 5px 20px rgba(0,0,0,.35);
+}
+
+body.dark-mode .navbar .nav-link,
+body.dark-mode .navbar-brand,
+body.dark-mode .navbar i{
+    color:#fff !important;
+}
+
+body.dark-mode .navbar .nav-link:hover,
+body.dark-mode .navbar .nav-link.active{
+    color:#60a5fa !important;
+}
+
+/* Hero */
+body.dark-mode .hero-section{
+    background:transparent;
+}
+
+body.dark-mode .carousel-caption{
+    background:rgba(0,0,0,.45);
+}
+
+/* Cards */
+
+body.dark-mode .card,
+body.dark-mode .stat-card,
+body.dark-mode .testimonial-card,
+body.dark-mode .partner-logo,
+body.dark-mode .timeline-item,
+body.dark-mode .search-panel,
+body.dark-mode .accordion-item,
+body.dark-mode .policy-container,
+body.dark-mode .modal-content{
+
+    background:#1e293b !important;
+    color:#f8fafc !important;
+    border:1px solid rgba(255,255,255,.06)!important;
+    box-shadow:0 10px 25px rgba(0,0,0,.25)!important;
+}
+
+/* جميع العناوين */
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode .section-title{
+    color:#ffffff !important;
+}
+
+/* النصوص */
+
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode span,
+body.dark-mode label{
+    color:#d1d5db !important;
+}
+
+/* الأرقام */
+
+body.dark-mode .stat-number{
+    color:#60a5fa !important;
+}
+
+/* الأيقونات */
+
+body.dark-mode .icon-box{
+    background:#2563eb;
+    color:#fff;
+}
+
+/* النصوص الثانوية */
+
+body.dark-mode .text-muted,
+body.dark-mode .text-secondary{
+    color:#9ca3af !important;
+}
+
+/* Accordion */
+
+body.dark-mode .accordion-button{
+    background:#1e293b;
+    color:#fff;
+}
+
+body.dark-mode .accordion-button:not(.collapsed){
+    background:#2563eb;
+    color:#fff;
+}
+
+/* Inputs */
+
+body.dark-mode .form-control,
+body.dark-mode .form-select{
+
+    background:#111827;
+    color:#fff;
+    border:1px solid #374151;
+}
+
+body.dark-mode .form-control::placeholder{
+    color:#9ca3af;
+}
+
+/* Policy */
+
+body.dark-mode .policy-container h2,
+body.dark-mode .policy-container h3{
+    color:#60a5fa !important;
+}
+
+body.dark-mode .policy-container a{
+    color:#93c5fd;
+}
+
+/* Footer */
+
+body.dark-mode .footer-link{
+    color:#d1d5db;
+}
+
+body.dark-mode .footer-link:hover{
+    color:#60a5fa;
+}
 @media(max-width:768px){.carousel-item img{height:360px}.carousel-caption{left:8%;right:8%;bottom:2rem}.navbar .btn{font-size:.85rem;padding:.35rem .55rem}.floating-actions{left:12px;bottom:12px}}
