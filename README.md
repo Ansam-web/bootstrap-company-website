@@ -26,16 +26,6 @@ This project represents a company website that includes multiple pages and respo
 - CSS3
 - Bootstrap 5
 
-## Project Structure
-Bootstrap Project/
-│
-├── index.html
-├── about.html
-├── contact.html
-├── faq.html
-├── album.html
-├── images/
-
 ## Screenshots
 
 <table>
