@@ -1,0 +1,132 @@
+:root {
+  --brand: #0d6efd;
+}
+
+body { scroll-behavior: smooth; }
+
+.hero-section .carousel-caption { background: rgba(0,0,0,.35); border-radius: 1rem; padding: 1rem 1.25rem; }
+
+.footer-link { color: #ddd; text-decoration: none; }
+.footer-link:hover { text-decoration: underline; }
+
+/* Reveal on scroll */
+.reveal { opacity: 0; transform: translateY(16px); transition: all .6s ease; }
+.reveal.visible { opacity: 1; transform: none; }
+.reveal.delay-1 { transition-delay: .15s; }
+.reveal.delay-2 { transition-delay: .3s; }
+
+/* Cards */
+.card h5, .card h6 { letter-spacing: .2px; }
+
+/* RTL tweaks for badges inside cards */
+.badge { padding: .5em .65em; }
+
+.carousel-item img {
+  width: 100%;
+  height: 420px;        
+  object-fit: cover;    
+  border-radius: 12px;  
+}
+
+.card-img-top {
+  width: 100%;
+  height: 250px;        
+  object-fit: cover;    
+  border-radius: 8px;
+}
+
+.album-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+ .policy-container {
+      max-width: 800px;
+      margin: auto;
+      padding: 30px;
+      background-color: #fffef6;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      line-height: 1.7;
+      color: #333;
+    }
+
+    .policy-container h2 {
+      color: #643905;
+      margin-bottom: 20px;
+    }
+
+    .policy-container h3 {
+      color: #7a5202;
+      margin-top: 25px;
+    }
+
+    .policy-container p {
+      margin-bottom: 15px;
+    }
+
+    .policy-container ul {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+    .policy-container a {
+  color: #643905;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.policy-container a:hover {
+  color: #a87000;
+  text-decoration: none;
+}
+
+/* ===== Professional Upgrade ===== */
+:root{
+  --brand:#0B5ED7;
+  --brand-dark:#1E3A5F;
+  --accent:#F59E0B;
+  --soft:#F6F8FC;
+}
+html{scroll-padding-top:90px;}
+body{background:var(--soft);transition:background .25s ease,color .25s ease;}
+#scrollProgress{position:fixed;top:0;right:0;height:4px;width:0;background:linear-gradient(90deg,var(--accent),var(--brand));z-index:2000;}
+#pageLoader{position:fixed;inset:0;background:#fff;display:flex;align-items:center;justify-content:center;z-index:3000;transition:opacity .4s ease,visibility .4s ease;}
+#pageLoader.hidden{opacity:0;visibility:hidden;}
+.loader-card{background:#fff;border-radius:24px;box-shadow:0 20px 60px rgba(30,58,95,.18);padding:32px;min-width:250px;text-align:center;}
+.navbar{transition:all .25s ease;}
+.navbar.nav-scrolled{padding-top:.35rem;padding-bottom:.35rem;background:rgba(255,255,255,.95)!important;backdrop-filter:blur(12px);}
+.nav-link.active{color:var(--brand)!important;font-weight:700;}
+.section-title{position:relative;display:inline-block;margin-bottom:1rem;}
+.section-title:after{content:"";position:absolute;bottom:-10px;right:0;width:64px;height:4px;border-radius:999px;background:var(--accent);}
+.hero-section{padding:24px 12px 0;}
+.carousel-inner{min-height:420px;}
+.carousel-caption{backdrop-filter:blur(4px);}
+.card,.accordion-item,.policy-container{border:0!important;border-radius:18px!important;transition:transform .25s ease,box-shadow .25s ease;}
+.card:hover{transform:translateY(-7px);box-shadow:0 16px 35px rgba(30,58,95,.14)!important;}
+.icon-box{width:58px;height:58px;border-radius:18px;background:rgba(11,94,215,.1);color:var(--brand);display:inline-flex;align-items:center;justify-content:center;font-size:1.65rem;margin-bottom:1rem;}
+.stat-card{background:#fff;border-radius:22px;padding:28px;box-shadow:0 12px 30px rgba(30,58,95,.08);height:100%;}
+.stat-number{font-size:2.35rem;font-weight:800;color:var(--brand-dark);}
+.partner-logo{background:#fff;border-radius:16px;padding:20px;text-align:center;font-weight:800;color:var(--brand-dark);box-shadow:0 10px 28px rgba(30,58,95,.08);}
+.timeline{position:relative;padding-right:22px;}
+.timeline:before{content:"";position:absolute;right:7px;top:0;bottom:0;width:3px;background:rgba(11,94,215,.25);}
+.timeline-item{position:relative;background:#fff;border-radius:18px;padding:18px 22px;margin-bottom:16px;box-shadow:0 10px 26px rgba(30,58,95,.08);}
+.timeline-item:before{content:"";position:absolute;right:-20px;top:24px;width:15px;height:15px;background:var(--accent);border-radius:50%;border:3px solid #fff;box-shadow:0 0 0 3px rgba(245,158,11,.25);}
+.testimonial-card{background:#fff;border-radius:22px;padding:26px;box-shadow:0 12px 30px rgba(30,58,95,.08);height:100%;}
+.stars{color:var(--accent);letter-spacing:2px;}
+.floating-actions{position:fixed;left:18px;bottom:18px;z-index:1500;display:flex;flex-direction:column;gap:10px;}
+.float-btn{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 25px rgba(0,0,0,.18);}
+#backToTop{opacity:0;visibility:hidden;transition:.25s;}
+#backToTop.show{opacity:1;visibility:visible;}
+.gallery-item{cursor:pointer;position:relative;overflow:hidden;border-radius:18px;}
+.gallery-item img{transition:transform .35s ease;}
+.gallery-item:hover img{transform:scale(1.07);}
+.gallery-item:after{content:"تكبير الصورة";position:absolute;inset:auto 12px 12px 12px;background:rgba(0,0,0,.55);color:#fff;border-radius:12px;padding:8px;text-align:center;opacity:0;transform:translateY(10px);transition:.25s;}
+.gallery-item:hover:after{opacity:1;transform:none;}
+.search-panel{background:#fff;border-radius:20px;padding:20px;box-shadow:0 12px 30px rgba(30,58,95,.08);}
+body.dark-mode{background:#111827;color:#f9fafb;}
+body.dark-mode .navbar,body.dark-mode .card,body.dark-mode .stat-card,body.dark-mode .testimonial-card,body.dark-mode .partner-logo,body.dark-mode .timeline-item,body.dark-mode .search-panel,body.dark-mode .accordion-item,body.dark-mode .modal-content,body.dark-mode .policy-container{background:#1f2937!important;color:#f9fafb!important;}
+body.dark-mode .text-secondary,body.dark-mode .text-muted{color:#cbd5e1!important;}
+body.dark-mode .navbar .nav-link,body.dark-mode .navbar-brand{color:#f9fafb!important;}
+body.dark-mode .form-control,body.dark-mode .form-select{background:#111827;color:#f9fafb;border-color:#374151;}
+@media(max-width:768px){.carousel-item img{height:360px}.carousel-caption{left:8%;right:8%;bottom:2rem}.navbar .btn{font-size:.85rem;padding:.35rem .55rem}.floating-actions{left:12px;bottom:12px}}
