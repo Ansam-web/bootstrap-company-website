@@ -87,5 +87,9 @@ Bootstrap Project/
 <b>طلب عرض سعر</b><br>
 <img src="images/Screenshot 9.png" width="400">
 </td>
+<td align="center">
+<b>الأسئلة الشائعة</b><br>
+<img src="images/Screenshot 10.png" width="400">
+</td>
 </tr>
 </table>
